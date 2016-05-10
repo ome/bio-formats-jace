@@ -19,7 +19,7 @@ addons:
 jdk: openjdk7
 
 script:
-  - sh build.sh
+  - ./build
   - cd target/cppwrap/build
   - ./showinf test.fake
   - ./minimum_writer test.ome.tiff
