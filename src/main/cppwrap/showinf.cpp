@@ -38,9 +38,9 @@
 #include "javaTools.h"
 
 // for Bio-Formats C++ bindings
-#include "formats-api-${release.version}.h"
-#include "formats-bsd-${release.version}.h"
-#include "formats-common-${release.version}.h"
+#include "formats-api-5.1.10.h"
+#include "formats-bsd-5.1.10.h"
+#include "formats-common-5.1.10.h"
 using jace::JNIException;
 using jace::proxy::java::io::IOException;
 using jace::proxy::java::lang::Object;
