@@ -70,7 +70,7 @@ required:
      At runtime, only the Java Runtime Environment (JRE) is necessary
      to execute the Bio-Formats code. However, the full J2SE
      development kit is required at compile time on some platforms
-     (Windows in particular), since it comes bundled with the |JVM|
+     (Windows in particular), since it comes bundled with the JVM
      shared library (jvm.lib) necessary to link with Java.
 
 For information on installing these dependencies, refer to the section for
@@ -167,7 +167,7 @@ To install dependencies on Ubuntu Linux, execute:
 
 Then select Sun's Java implementation as the system default.
 
-It may be possible to use a different Java compiler (i.e., omit the
+It may be possible to use a different Java compiler (i.e. omit the
 sun-java6-jdk package and update-alternatives step), but we have only
 tested the compilation process with Sun's Java compiler.
 
@@ -279,7 +279,7 @@ attempting to initialize a JVM from native code.
 
 Optionally, you can add the bin subdirectory to the PATH e.g.
 
-    %JAVA_HOME%\bin``
+    %JAVA_HOME%\bin
 
 Once set, new Command Prompts will recognize (e.g.) "javac" as a valid
 command.
