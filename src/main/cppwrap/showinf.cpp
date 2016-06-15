@@ -313,8 +313,8 @@ void readCoreMetadata() {
     int rgbChanCount = reader->getRGBChannelCount();
     bool indexed = reader->isIndexed();
     bool falseColor = reader->isFalseColor();
-    ByteArray2D table8 = reader->get8BitLookupTable();
-    ShortArray2D table16 = reader->get16BitLookupTable();
+    ByteArray2D table8 = reader->get8BitLookupTable(0);
+    ShortArray2D table16 = reader->get16BitLookupTable(0);
     int thumbSizeX = reader->getThumbSizeX();
     int thumbSizeY = reader->getThumbSizeY();
     bool little = reader->isLittleEndian();
