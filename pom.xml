@@ -212,8 +212,8 @@
       <url>http://artifacts.openmicroscopy.org/artifactory/ome.external</url>
     </pluginRepository>
     <pluginRepository>
-      <id>imagej.thirdparty</id>
-      <url>http://maven.imagej.net/content/repositories/thirdparty</url>
+      <id>imagej.releases</id>
+      <url>http://maven.imagej.net/content/repositories/releases</url>
     </pluginRepository>
   </pluginRepositories>
 
