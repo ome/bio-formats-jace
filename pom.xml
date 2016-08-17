@@ -6,7 +6,7 @@
   <modelVersion>4.0.0</modelVersion>
 
    <groupId>ome</groupId>
-   <version>5.2.0-m5</version>
+   <version>5.2.0</version>
   <artifactId>bio-formats-jace</artifactId>
 
   <name>Bio-Formats JACE bindings</name>
@@ -25,22 +25,22 @@
     <dependency>
       <groupId>ome</groupId>
       <artifactId>formats-bsd</artifactId>
-      <version>5.2.0-m5</version>
+      <version>5.2.0</version>
     </dependency>
     <dependency>
       <groupId>ome</groupId>
       <artifactId>formats-api</artifactId>
-      <version>5.2.0-m5</version>
+      <version>5.2.0</version>
     </dependency>
     <dependency>
       <groupId>ome</groupId>
       <artifactId>formats-common</artifactId>
-      <version>5.2.0-m5</version>
+      <version>5.2.0</version>
     </dependency>
     <dependency>
       <groupId>ome</groupId>
       <artifactId>ome-xml</artifactId>
-      <version>5.2.0-m5</version>
+      <version>5.2.0</version>
     </dependency>
     <dependency>
      <groupId>com.esotericsoftware.kryo</groupId>
