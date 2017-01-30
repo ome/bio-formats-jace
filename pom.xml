@@ -6,7 +6,7 @@
   <modelVersion>4.0.0</modelVersion>
 
    <groupId>ome</groupId>
-   <version>5.2.4</version>
+   <version>5.2.1</version>
   <artifactId>bio-formats-jace</artifactId>
 
   <name>Bio-Formats JACE bindings</name>
