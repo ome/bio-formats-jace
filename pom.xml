@@ -6,7 +6,7 @@
   <modelVersion>4.0.0</modelVersion>
 
    <groupId>ome</groupId>
-   <version>5.2.0</version>
+   <version>5.2.1</version>
   <artifactId>bio-formats-jace</artifactId>
 
   <name>Bio-Formats JACE bindings</name>
@@ -21,26 +21,33 @@
     </license>
   </licenses>
 
+  <properties>
+    <formats-bsd.version>5.2.4</formats-bsd.version>
+    <formats-api.version>5.2.4</formats-api.version>
+    <formats-common.version>5.2.4</formats-common.version>
+    <ome-xml.version>5.2.4</ome-xml.version>
+  </properties>
+
   <dependencies>
     <dependency>
       <groupId>ome</groupId>
       <artifactId>formats-bsd</artifactId>
-      <version>5.2.0</version>
+      <version>${formats-bsd.version}</version>
     </dependency>
     <dependency>
       <groupId>ome</groupId>
       <artifactId>formats-api</artifactId>
-      <version>5.2.0</version>
+      <version>${formats-api.version}</version>
     </dependency>
     <dependency>
       <groupId>ome</groupId>
       <artifactId>formats-common</artifactId>
-      <version>5.2.0</version>
+      <version>${formats-common.version}</version>
     </dependency>
     <dependency>
       <groupId>ome</groupId>
       <artifactId>ome-xml</artifactId>
-      <version>5.2.0</version>
+      <version>${ome-xml.version}</version>
     </dependency>
     <dependency>
      <groupId>com.esotericsoftware.kryo</groupId>
@@ -68,10 +75,10 @@
         <configuration>
           <sourceDir>target/classes</sourceDir>
           <libraries>
-            <library>ome:ome-xml:jar:${project.version}</library>
-            <library>ome:formats-api:jar:${project.version}</library>
-            <library>ome:formats-common:jar:${project.version}</library>
-            <library>ome:formats-bsd:jar:${project.version}</library>
+            <library>ome:ome-xml:jar:${ome-xml.version}</library>
+            <library>ome:formats-api:jar:${formats-api.version}</library>
+            <library>ome:formats-common:jar:${formats-common.version}</library>
+            <library>ome:formats-bsd:jar:${formats-bsd.version}</library>
           </libraries>
         </configuration>
       </plugin>

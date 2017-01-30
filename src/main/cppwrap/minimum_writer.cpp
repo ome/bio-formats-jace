@@ -38,9 +38,9 @@
 #include "javaTools.h"
 
 // for Bio-Formats C++ bindings
-#include "formats-api-5.2.0.h"
-#include "formats-bsd-5.2.0.h"
-#include "ome-xml-5.2.0.h"
+#include "formats-api-5.2.4.h"
+#include "formats-bsd-5.2.4.h"
+#include "ome-xml-5.2.4.h"
 using jace::JNIException;
 using jace::proxy::java::io::IOException;
 using jace::proxy::java::lang::Boolean;
