@@ -6,7 +6,7 @@
   <modelVersion>4.0.0</modelVersion>
 
    <groupId>ome</groupId>
-   <version>5.2.1</version>
+   <version>5.3.0</version>
   <artifactId>bio-formats-jace</artifactId>
 
   <name>Bio-Formats JACE bindings</name>
@@ -22,10 +22,10 @@
   </licenses>
 
   <properties>
-    <formats-bsd.version>5.2.4</formats-bsd.version>
-    <formats-api.version>5.2.4</formats-api.version>
-    <formats-common.version>5.2.4</formats-common.version>
-    <ome-xml.version>5.2.4</ome-xml.version>
+    <formats-bsd.version>5.3.3</formats-bsd.version>
+    <formats-api.version>5.3.3</formats-api.version>
+    <ome-common.version>5.3.1</ome-common.version>
+    <ome-xml.version>5.3.1</ome-xml.version>
   </properties>
 
   <dependencies>
@@ -40,12 +40,12 @@
       <version>${formats-api.version}</version>
     </dependency>
     <dependency>
-      <groupId>ome</groupId>
-      <artifactId>formats-common</artifactId>
-      <version>${formats-common.version}</version>
+      <groupId>org.openmicroscopy</groupId>
+      <artifactId>ome-common</artifactId>
+      <version>${ome-common.version}</version>
     </dependency>
     <dependency>
-      <groupId>ome</groupId>
+      <groupId>org.openmicroscopy</groupId>
       <artifactId>ome-xml</artifactId>
       <version>${ome-xml.version}</version>
     </dependency>
@@ -75,9 +75,9 @@
         <configuration>
           <sourceDir>target/classes</sourceDir>
           <libraries>
-            <library>ome:ome-xml:jar:${ome-xml.version}</library>
+            <library>org.openmicroscopy:ome-xml:jar:${ome-xml.version}</library>
             <library>ome:formats-api:jar:${formats-api.version}</library>
-            <library>ome:formats-common:jar:${formats-common.version}</library>
+            <library>org.openmicroscopy:ome-common:jar:${ome-common.version}</library>
             <library>ome:formats-bsd:jar:${formats-bsd.version}</library>
           </libraries>
         </configuration>
@@ -198,12 +198,9 @@
       <layout>default</layout>
     </repository>
     <repository>
-      <id>ome.releases</id>
-      <url>http://artifacts.openmicroscopy.org/artifactory/ome.releases</url>
-    </repository>
-    <repository>
-      <id>ome.snapshots</id>
-      <url>http://artifacts.openmicroscopy.org/artifactory/ome.snapshots</url>
+      <id>ome</id>
+      <name>OME Artifactory</name>
+      <url>http://artifacts.openmicroscopy.org/artifactory/maven/</url>
     </repository>
   </repositories>
 
