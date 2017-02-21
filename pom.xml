@@ -6,7 +6,7 @@
   <modelVersion>4.0.0</modelVersion>
 
    <groupId>ome</groupId>
-   <version>5.3.0</version>
+   <version>5.3.1</version>
   <artifactId>bio-formats-jace</artifactId>
 
   <name>Bio-Formats JACE bindings</name>
@@ -22,10 +22,10 @@
   </licenses>
 
   <properties>
-    <formats-bsd.version>5.3.3</formats-bsd.version>
-    <formats-api.version>5.3.3</formats-api.version>
+    <formats-bsd.version>5.3.4</formats-bsd.version>
+    <formats-api.version>5.3.4</formats-api.version>
     <ome-common.version>5.3.1</ome-common.version>
-    <ome-xml.version>5.3.1</ome-xml.version>
+    <ome-xml.version>5.4.0</ome-xml.version>
   </properties>
 
   <dependencies>
